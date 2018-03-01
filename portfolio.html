@@ -10,9 +10,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-              <!-- Brand -->
-              <a class="navbar-brand">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+             <!-- Brand -->
+             <a class="navbar-brand">
                 <h1 class='card-header bg-info'>
                     Chelsea
                 </h1>
@@ -22,18 +22,18 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
                         <a class="nav-link" href="index.html">
                             Home 
-                            <span class="sr-only"></span>
+                            <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="portfolio.html">
+                        <a class="nav-link" href="portfolio.html">
                             Portfolio
-                            <span class="sr-only">(current)</span>
+                            <span class="sr-only"></span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -45,39 +45,48 @@
                 </ul>
             </div>
         </nav>
-        <section class='container'>
-            <div class='row'>
-                <div class='contentbox col-md-8'>
-                    <h2>
-                        Portfolio
-                    </h2>
-                
-                </div>
-                <div class='connectbox col-md-3'>
-                    <h3>
-                        Connect with Me:
-                    </h3>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/chelsg7" target= '_blank'>
-                                <img src="assets/images/git.png" alt='github' class='rounded'/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/chelsea-gieck-44ab2b2a/" target= '_blank'>
-                                <img src="assets/images/link.png" alt='linkedin' class='rounded'/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://stackexchange.com/users/12884145/chegi7" target= '_blank'>
-                                <img src="assets/images/stack.png" alt='stack' class='rounded'/>
-                            </a>
-                        </li>
-                    </ul>
+<!--- body section below -->
+    <section class='container'>
+        <div class='row'>
+<!-- content box -->
+            <div class='contentbox col-md-8 col-sm-12'>
+                <h2 class='row text-info'>
+                    Portfolio
+                </h2>
+                <img src= 'assets/images/dog1.jpg' alt='dog' class= 'float-left col-md-6'/>
+                <p>
+                    Lemon drops tart topping lollipop icing topping marshmallow ice cream chocolate cake. Chocolate bar pie liquorice soufflé dragée cake. Cheesecake macaroon powder. Gummi bears topping tart tart.
+                </p>
+                <p>
+                    Bonbon chupa chups lollipop apple pie dragée soufflé. Ice cream jelly beans icing ice cream tootsie roll marzipan sweet roll jelly. Marzipan soufflé muffin jelly beans carrot cake carrot cake. Lemon drops biscuit jelly beans tootsie roll.
+                </p> 
+            </div>
+<!-- connect with me info -->
+            <div class='connectbox col-md-4 col-sm-12'>
+                <h3 class='row text-info'>
+                    Connect with Me:
+                </h3>
+                <div class='row'>
+                    <div class='col-4'>
+                        <a href="https://github.com/chelsg7" target= '_blank'>
+                            <img src="assets/images/git.png" alt='github' class='w-100 rounded'/>
+                        </a>
+                    </div>
+                    <div class='col-4'>
+                        <a href="https://www.linkedin.com/in/chelsea-gieck-44ab2b2a/" target= '_blank'>
+                            <img src="assets/images/link.png" alt='linkedin' class='w-100 rounded'/>
+                        </a>
+                    </div>
+                    <div class='col-4'>
+                        <a href="https://stackexchange.com/users/12884145/chegi7" target= '_blank'>
+                            <img src="assets/images/stack.png" alt='stack' class='w-100 rounded'/>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-     </section>
+        
+    </section>
  
 </body> 
 </html>
