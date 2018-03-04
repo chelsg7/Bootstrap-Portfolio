@@ -12,13 +12,15 @@
         <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
              <!-- Brand -->
-             <a class="navbar-brand">
-                <h1 class='card-header bg-info'>
-                    Chelsea
-                </h1>
-            </a>
+             <div class="navbar-brand">
+                 <div class="card bg-info p-2">
+                    <h1 class='card-block font-weight-bold text-white' id='heading'>
+                        Chelsea
+                    </h1>
+                </div>
+            </div> 
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,44 +53,68 @@
     <section class='container'>
         <div class='row'>
 <!-- content box -->
-            <div class='contentbox col-md-8 col-12'>
-                <h2 class='row text-info border border-top-0 border-left-0 border-right-0 border-bottom-5 m-1 py-4'>
+            <div class='col-md-8 col-12'>
+                <h2 class='row text-info border border-top-0 border-left-0 border-right-0 border-bottom-5 m-1 py-4 font-weight-bold' id='heading'>
                     About
                 </h2>
-                    <img src= 'assets/images/dog1.jpg' alt='dog' class= 'float-left col-sm-6 col-12 mt-3'/>
-                    <p class='text-justify m-3'>
+                    <img src= 'assets/images/cat1.jpg' alt='cat' class= 'float-left col-sm-4 col-6 mt-3 img-fluid'/>
+                    <p class='text-justify m-3' id='arial'>
                         Lemon drops tart topping lollipop icing topping marshmallow ice cream chocolate cake. Chocolate bar pie liquorice soufflé dragée cake. Cheesecake macaroon powder. Gummi bears topping tart tart.
                     </p>
-                    <p class='text-justify m-3'>
+                    <p class='text-justify m-3' id='arial'>
                         Bonbon chupa chups lollipop apple pie dragée soufflé. Ice cream jelly beans icing ice cream tootsie roll marzipan sweet roll jelly. Marzipan soufflé muffin jelly beans carrot cake carrot cake. Lemon drops biscuit jelly beans tootsie roll.
                     </p>
+                    <p class='text-justify m-3' id='arial'>
+                            Icing cotton candy brownie chocolate cake pudding pudding. Macaroon chocolate liquorice. Gummi bears gingerbread gummies jelly toffee liquorice. Jelly beans gummies marzipan I love carrot cake lollipop icing.
+                        </p>
+                        <p class='text-justify m-3' id='arial'>
+                            Lemon drops tart topping lollipop icing topping marshmallow ice cream chocolate cake. Chocolate bar pie liquorice soufflé dragée cake. Cheesecake macaroon powder. Gummi bears topping tart tart.
+                        </p>
+                        <p class='text-justify m-3' id='arial'>
+                             Bonbon chupa chups lollipop apple pie dragée soufflé. Ice cream jelly beans icing ice cream tootsie roll marzipan sweet roll jelly. Marzipan soufflé muffin jelly beans carrot cake carrot cake. Lemon drops biscuit jelly beans tootsie roll.
+                        </p>
+                        <p class='text-justify m-3' id='arial'>
+                                Icing cotton candy brownie chocolate cake pudding pudding. Macaroon chocolate liquorice. Gummi bears gingerbread gummies jelly toffee liquorice. Jelly beans gummies marzipan I love carrot cake lollipop icing.
+                            </p>
                 </div>
 <!-- connect with me info -->
-            <div class='connectbox col-md-4 col-sm-12'>
-                <h3 class='row  m-1 py-4 text-info border border-top-0 border-left-0 border-right-0 border-bottom-5'>
+            <div class='col-md-4 col-sm-12 pb-5'>
+                <h3 class='row  m-1 py-4 text-info border border-top-0 border-left-0 border-right-0 border-bottom-5 font-weight-bold' id='heading'>
                     Connect with Me:
                 </h3>
                 <div class='row m-md-0 m-1'>
                     <div class='col-4 mt-3'>
                         <a href="https://github.com/chelsg7" target= '_blank'>
-                            <img src="assets/images/git.png" alt='github' class='w-100 rounded border border-secondary'/>
+                            <img src="assets/images/git.png" alt='github' class='rounded border border-secondary img-fluid'/>
                         </a>
                     </div>
                     <div class='col-4 mt-3'>
                         <a href="https://www.linkedin.com/in/chelsea-gieck-44ab2b2a/" target= '_blank'>
-                            <img src="assets/images/link.png" alt='linkedin' class='w-100 rounded border border-secondary'/>
+                            <img src="assets/images/link.png" alt='linkedin' class='rounded border border-secondary img-fluid'/>
                         </a>
                     </div>
                     <div class='col-4 mt-3'>
                         <a href="https://stackexchange.com/users/12884145/chegi7" target= '_blank'>
-                            <img src="assets/images/stack.png" alt='stack' class='w-100 rounded border border-secondary'/>
+                            <img src="assets/images/stack.png" alt='stack' class='rounded border border-secondary img-fluid'/>
                         </a>
                     </div>
                 </div>
             </div>
-        </div>
-        
-    </section>
- 
-</body> 
+            
+<!-- Closing tags -->
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="container-flex sticky-bottom">
+        <div class="navbar navbar-expand-md bg-info">
+            <div class="navbar-brand mx-auto" id="heading">
+                <h6 class="text-white text-center">
+                    © Copyright 2018 Chelsea G
+                </h6>
+            </div>
+            </div>
+        </footer>
+<!-- closing -->
+    </body> 
 </html>
